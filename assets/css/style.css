@@ -1,0 +1,113 @@
+/*******
+CSS for Project 1: Portfolio;
+*******/
+/*
+h1,h2,h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}*/
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: -8px;
+	background-image: url("bg_paper.png");
+	}
+
+body{
+	background-image: url("bg_paper.png");
+	background-color: #CCCCCC;
+}
+
+.letter-head{
+	padding: 20px;
+	box-shadow: 0px 2px 1px -1px #888888;
+	height:35px;
+	background-color: white;
+	margin-top: -8px;
+}
+
+/*** letter-head: name on left, quicklinks on right ***/
+#kevin-name{
+	float:left;
+	width:67%;
+	}
+
+#kevin-name a{
+	background-color: #4AAAA5;
+	padding: 30px;
+	margin-left: 123px;
+	font-size: 21px;
+	color: white;
+	text-decoration: none;
+}
+#kevin-name a:hover, #quick-links a:hover{
+	text-decoration: underline;}
+
+#quick-links{
+	width:30%;
+	float:left;
+}
+
+#quick-links a{
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	color: #777777;
+}
+
+/*** main content is float left, 70% of page ***/
+#main-bio{
+	width:575px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	float:left;
+	margin-top: 25px;
+	background: white;
+	min-height: 432px;
+	margin-bottom: 30px;
+}
+
+#main-bio h1, #connect h2{
+	box-shadow: 0px 2px 1px -1px #888888;
+	color: #4AAAA5;
+}
+
+/*** connect side bar is on the right, 30% ***/
+#connect{
+    background: white none repeat scroll 0 0;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 225px;
+}
+
+/*** social media images ***/
+#connect img{
+	height: 55px;
+	padding: 3px;
+}
+
+#bio-img, #connect{
+	float: left;
+    margin-right: 20px;
+}
+
+p, h1, h2, h3{color: #777777;}
+
+.footer{
+	clear: both;
+	border-top: 5px solid #4AAAA5;
+	text-align: center;
+	background: #333333;
+	padding: 20px;
+}
+
+.footer p{
+	color: white;
+	font-size: 13px;
+}
