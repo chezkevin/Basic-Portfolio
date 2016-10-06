@@ -14,8 +14,8 @@ TODO
 	background-image: url("bg_paper.png");
 	}
 
-body{
-	background-image: url("bg_paper.png");
+html{
+	background-image: url("../../assets/images/bg_paper.png");
 	background-color: #CCCCCC;
 }
 
@@ -24,7 +24,7 @@ body{
 	box-shadow: 0px 2px 1px -1px #888888;
 	height:35px;
 	background-color: white;
-	margin-top: -8px;
+	margin-top: -10px;
 }
 
 /*** letter-head: name on left, quicklinks on right ***/
